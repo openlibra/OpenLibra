@@ -1,20 +1,23 @@
 OpenLibra
-=========
+---------
 
-Bienvenido a la guía de instalación de OpenLibra. Si desea instalar la versión actual de OpenLibra en su entorno de desarrollo deberá seguir los pasos que se detallan a continuación.
+**OpenLibra** is a web software that can create books stores, or any kind of store, easily. The main feature is a partial **WordPress plugins compatibility** and a **federate system that enables global searchs across all stores**.
 
-1) Clonar el repositorio git
-----------------------------
+It can be useful for store books, DVDs, music, videos, anything!
 
-    git clone https://github.com/openlibra/OpenLibra.git
+Built upon [Laravel 3.2][1] and [PHP-FIG][2]. All pieces have been decoupled into framework independent components.
 
-2) Renombrar el archivo parameters.ini
---------------------------------------
+> Since OpenLibra is dependent on Composer, you already have access to any package from the Packagist directory anytime you start a new project. That means you have **thousands of packages** at your fingertips!
 
-	cp app/config/parameters.ini.dist app/config/parameters.ini
 
-3) Instalar las librerías dependientes
---------------------------------------
+All of this makes OpenLibra compatible with some [WordPress plugins][3], [Symfony2 bundles][4], [FuelPHP][5] or [CodeIgniter packages][6].
 
-	php bin/vendors install
+**OpenLibra is under development and it has no a stable version yet.**
 
+
+  [1]: http://laravel.com/
+  [2]: http://www.php-fig.org/
+  [3]: http://wordpress.org/extend/plugins/
+  [4]: http://knpbundles.com/
+  [5]: http://fuelphp.com/
+  [6]: http://getsparks.org/packages/summary
